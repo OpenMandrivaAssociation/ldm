@@ -3,7 +3,7 @@ Version:        2.0.27
 Release:        %mkrel 1
 Summary:        LTSP Display Manager
 
-Group:          User Interface/X
+Group:          System/X11
 License:        GPLv2+
 URL:            https://code.launchpad.net/~ltsp-upstream/ltsp/ldm-trunk
 Source0:        ldm-%{version}.tar.bz2
