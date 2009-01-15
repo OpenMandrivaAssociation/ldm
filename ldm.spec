@@ -21,7 +21,7 @@ LTSP Display Manager handles network logins for remote desktop sessions.
 
 %package -n ldminfod
 Summary:        LTSP client
-Group:          User Interface/X
+Group:          System/X11
 Requires:       openssh-server
 
 %description -n ldminfod
