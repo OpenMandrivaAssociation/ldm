@@ -1,5 +1,5 @@
 Name:           ldm
-Version:        2.0.29
+Version:        2.0.30
 Release:        %mkrel 1
 Summary:        LTSP Display Manager
 
