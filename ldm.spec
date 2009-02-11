@@ -1,5 +1,5 @@
 Name:           ldm
-Version:        2.0.30
+Version:        2.0.33
 Release:        %mkrel 1
 Summary:        LTSP Display Manager
 
@@ -80,6 +80,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/ldm.1.lzma
 %{_datadir}/ltsp/screen.d/ldm
 %dir %{_localstatedir}/run/ldm/
+%{_datadir}/locale/fr/LC_MESSAGES/ldmrc.mo
 
 %files -n ldminfod
 %{_sbindir}/ldminfod
