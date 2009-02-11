@@ -12,6 +12,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  gtk2-devel
 BuildRequires:  gettext-devel
 BuildRequires:  intltool
+BuildRequires:  iso-codes
 
 Requires:       nc
 Requires:       openssh-clients
