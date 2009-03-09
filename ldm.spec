@@ -1,6 +1,6 @@
 Name:           ldm
 Version:        2.0.38
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        LTSP Display Manager
 
 Group:          System/X11
@@ -14,7 +14,7 @@ BuildRequires:  gettext-devel
 BuildRequires:  intltool
 BuildRequires:  iso-codes
 
-Requires:       nc
+Requires:       netcat-traditional
 Requires:       openssh-clients
 
 %description
