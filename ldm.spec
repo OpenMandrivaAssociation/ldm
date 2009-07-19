@@ -1,12 +1,12 @@
 Name:           ldm
-Version:        2.0.40
+Version:        2.0.42
 Release:        %mkrel 1
 Summary:        LTSP Display Manager
 
 Group:          System/X11
 License:        GPLv2+
 URL:            https://code.launchpad.net/~ltsp-upstream/ltsp/ldm-trunk
-Source0:        ldm-%{version}.tar.bz2
+Source0:        http://ftp.de.debian.org/debian/pool/main/l/ldm/%{name}_%{version}.orig.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  gtk2-devel
