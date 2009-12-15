@@ -1,5 +1,5 @@
 Name:           ldm
-Version:        2.0.44
+Version:        2.0.52
 Release:        %mkrel 1
 Summary:        LTSP Display Manager
 
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{_localstatedir}/run/ldm/
 
 %find_lang ldm
+%find_lang ldmrc 
+%find_lang ltsp-cluster-info 
+cat ltsp-cluster-info.lang ldmrc.lang >> ldm.lang
 
 mkdir -p $RPM_BUILD_ROOT%{_sysconfdir}/xinetd.d/
 install -m 0755 ldminfod/ldminfod $RPM_BUILD_ROOT%{_sbindir}/ldminfod
@@ -81,7 +84,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/ldm.1.lzma
 %{_datadir}/ltsp/screen.d/ldm
 %dir %{_localstatedir}/run/ldm/
-%{_datadir}/locale/fr/LC_MESSAGES/ldmrc.mo
 
 %files -n ldminfod
 %{_sbindir}/ldminfod
