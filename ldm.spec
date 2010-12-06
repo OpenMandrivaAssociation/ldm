@@ -1,6 +1,6 @@
 Name:           ldm
 Version:        2.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        LTSP Display Manager
 
 Group:          System/X11
