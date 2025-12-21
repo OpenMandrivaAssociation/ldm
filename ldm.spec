@@ -9,6 +9,11 @@ URL:            https://code.launchpad.net/~ltsp-upstream/ltsp/ldm-trunk
 Source0:        http://ftp.de.debian.org/debian/pool/main/l/ldm/%{name}_%{version}.orig.tar.gz
 
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(gdk-2.0)
 BuildRequires:  gettext-devel
 BuildRequires:  intltool
